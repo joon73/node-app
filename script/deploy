@@ -1,5 +1,5 @@
 #!/bin/sh
-ssh park@192.168.33.10 <<EOF
+ssh -tt park@192.168.33.10 <<EOF
  cd ~/node-app
  git pull
  npm install
